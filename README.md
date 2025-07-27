@@ -8,5 +8,4 @@ This repository provides essential datasets and modeling codes used in the manus
 
 # Citation
 
-Please cite the corresponding paper if you use these data or codes.  
 A DOI will be provided upon Zenodo release.
