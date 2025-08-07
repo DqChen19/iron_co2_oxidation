@@ -1,5 +1,5 @@
 #-------------------------------------------------------------------------------------------
-# This model was originally developed by Owen Lehmer and first published in:
+# This model was originally developed by Dr Owen Lehmer and first published in:
 # Lehmer, O.R., Catling, D.C., Buick, R., Brownlee, D.E., & Newport, S. (2020). 
 # Atmospheric CO₂ levels from 2.7 billion years ago inferred from micrometeorite oxidation. 
 # *Science Advances*, 6(4), eaay4644. https://doi.org/10.1126/sciadv.aay4644
@@ -1035,7 +1035,8 @@ if __name__ =='__main__':
         sys.exit(1)
 
     co2_frac = float(sys.argv[1])
-    output_dir = "./Scenario2/oxi_standard/co2_%0.0f" % (co2_frac * 100)
+    output_dir = "./Scenario_case/case_name/co2_%0.0f" % (co2_frac * 100)
 
     generateRandomSampleData(num_samples=200, output_dir=output_dir, input_dir="")
+
 
