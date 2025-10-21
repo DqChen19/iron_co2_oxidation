@@ -5,7 +5,10 @@
 # *Science Advances*, 6(4), eaay4644. https://doi.org/10.1126/sciadv.aay4644
 #
 # For a detailed description of the original model, please refer to the publication above.
-# This version has been modified by Danqiu Chen. For inquiries, please contact: chendq@uw.edu
+# This version has been modified by Danqiu Chen, including improve original PDEs, 
+# adding chemistry reaction equations, incorprating photochemical model interfaces.
+# Currently the paper is under review of Geochimica. Cosmochimica. Acta.
+# For inquiries, please contact: chendq@uw.edu
 # -------------------------------------------------------------------------------------------
 from multiprocessing import Pool, cpu_count
 from math import sin, cos, asin, pi, floor, ceil, sqrt, exp
@@ -1038,5 +1041,6 @@ if __name__ =='__main__':
     output_dir = "./Scenario_case/case_name/co2_%0.0f" % (co2_frac * 100)
 
     generateRandomSampleData(num_samples=200, output_dir=output_dir, input_dir="")
+
 
 
