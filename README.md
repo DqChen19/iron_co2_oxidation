@@ -8,4 +8,4 @@ This repository provides essential datasets and modeling codes used in the manus
 
 # Citation
 
-A DOI will be provided upon Zenodo release.
+Chen D, Catling DC. 2026. New empirical kinetics of iron oxidation by CO2 applied to micrometeorites imply a CO2-rich Archean atmosphere. Geochimica et Cosmochimica Acta (https://doi.org/10.1016/j.gca.2026.01.020)
